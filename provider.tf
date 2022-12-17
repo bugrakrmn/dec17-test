@@ -7,8 +7,15 @@ terraform {
   }
 }
 
-
-
+backend "remote" {
+    organization = "bugra_project"
+ 
+    workspaces {
+      name = "dec17-terraformio"
+    }
+  }
 provider "azurerm" {
+  features {
     
-}
+   }
+  }
