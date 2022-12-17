@@ -1,4 +1,4 @@
 variable "rg_name" {
-  default = "test123"
+  default = "rg_azure_name"
   type=string
 }
